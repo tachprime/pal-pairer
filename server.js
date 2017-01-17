@@ -11,7 +11,7 @@ app.use('/', htmlRouter);
 app.use('/home', htmlRouter);
 app.use('/survey', htmlRouter);
 
-//endpoints to be handels by apiRoutes.js
+//endpoints to be handled by apiRoutes.js
 app.use('/', apiRouter);
 app.use('/api/friends', apiRouter);
 
