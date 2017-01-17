@@ -12,9 +12,7 @@ var test = {};
 
 router.get('/api/friends', function (req, res) {
     res.send("please be my friend");
-});
-
-router.post('/api/friends', function (req, res) {
+}).post('/api/friends', function (req, res) {
     test = req.body;
     res.json(test);
 });
