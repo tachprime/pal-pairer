@@ -1,9 +1,8 @@
 //jshint esversion:6
 const express = require('express');
-const bodyParser = require('body-parser');
 const app = express();
-var htmlRouter = require('./app/routing/htmlRoutes');
-var apiRouter = require('./app/routing/apiRoutes');
+const htmlRouter = require('./app/routing/htmlRoutes');
+const apiRouter = require('./app/routing/apiRoutes');
 
 app.set('port', process.env.PORT || 8080);
 
