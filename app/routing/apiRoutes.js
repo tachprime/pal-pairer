@@ -2,19 +2,16 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const router = express.Router();
-const fs = require('fs');
+var friendsList = require('../data/friends');
 
 console.log('api Routes loaded');
 
 router.use(bodyParser.json());
 
-var test = {};
-
 router.get('/api/friends', function (req, res) {
-    res.send("please be my friend");
+    res.send(friendsList);
 }).post('/api/friends', function (req, res) {
-    test = req.body;
-    res.json(test);
+    res.json(req.body);
 });
 
 module.exports = router;

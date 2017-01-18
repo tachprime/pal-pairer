@@ -1,7 +1,6 @@
 //jshint esversion:6
 const path = require('path');
 const express = require('express');
-const bodyParser = require('body-parser');
 const router = express.Router();
 
 console.log("HTML Routes loaded");
