@@ -20,12 +20,155 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/survey.css" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <h1>Survey Says!!!!</h1>
-    </header>
+    <section class="container">
+        <form id="survey-form">
+            <div class="panel panel-success col-sm-12">
+                <!-- Default panel contents -->
+                <div class="panel-heading center"><span id="pair-logo"><img src="images/pair.svg" alt="logo"></span>Pal Pairer Survey</div>
+                <div class="panel-body">
+                    <h3>Enter Your Information</h3>
+                    <label for="name-input">Name (required)</label><br>
+                    <input id="name-input" type="text"><br><br>
+                    <label for="photo-input">URL to Photo Image (requried)</label><br>
+                    <div class="input-group">
+                        <span class="input-group-addon" id="url-example">https://example.com/yourphoto.jpg</span>
+                        <input type="text" class="form-control" id="photo-input">
+                    </div>
+                </div>
+
+                <!-- List group -->
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <h3>Question 1</h3>
+                        <p></p>
+                        <select name="q1-select" id="q1-select">
+                    	<option value="0">Choose an option</option>
+                    	<option value="1">Strongly Disagree</option>
+                    	<option value="2">Disagree</option>
+                    	<option value="3">neutral</option>
+                    	<option value="4">Agree</option>
+                    	<option value="5">Strongly Agree</option>
+                    </select>
+                    </li>
+                    <li class="list-group-item">
+                        <h3>Question 2</h3>
+                        <p></p>
+                        <select name="q2-select" id="q2-select">
+                    	<option value="0">Choose an option</option>
+                    	<option value="1">Strongly Disagree</option>
+                    	<option value="2">Disagree</option>
+                    	<option value="3">neutral</option>
+                    	<option value="4">Agree</option>
+                    	<option value="5">Strongly Agree</option>
+                    </select>
+                    </li>
+                    <li class="list-group-item">
+                        <h3>Question 3</h3>
+                        <p></p>
+                        <select name="q3-select" id="q3-select">
+                    	<option value="0">Choose an option</option>
+                    	<option value="1">Strongly Disagree</option>
+                    	<option value="2">Disagree</option>
+                    	<option value="3">neutral</option>
+                    	<option value="4">Agree</option>
+                    	<option value="5">Strongly Agree</option>
+                    </select>
+                    </li>
+                    <li class="list-group-item">
+                        <h3>Question 4</h3>
+                        <p></p>
+                        <select name="q4-select" id="q4-select">
+                    	<option value="0">Choose an option</option>
+                    	<option value="1">Strongly Disagree</option>
+                    	<option value="2">Disagree</option>
+                    	<option value="3">neutral</option>
+                    	<option value="4">Agree</option>
+                    	<option value="5">Strongly Agree</option>
+                    </select>
+                    </li>
+                    <li class="list-group-item">
+                        <h3>Question 5</h3>
+                        <p></p>
+                        <select name="q5-select" id="q5-select">
+                    	<option value="0">Choose an option</option>
+                    	<option value="1">Strongly Disagree</option>
+                    	<option value="2">Disagree</option>
+                    	<option value="3">neutral</option>
+                    	<option value="4">Agree</option>
+                    	<option value="5">Strongly Agree</option>
+                    </select>
+                    </li>
+                    <li class="list-group-item">
+                        <h3>Question 6</h3>
+                        <p></p>
+                        <select name="q6-select" id="q6-select">
+                    	<option value="0">Choose an option</option>
+                    	<option value="1">Strongly Disagree</option>
+                    	<option value="2">Disagree</option>
+                    	<option value="3">neutral</option>
+                    	<option value="4">Agree</option>
+                    	<option value="5">Strongly Agree</option>
+                    </select>
+                    </li>
+                    <li class="list-group-item">
+                        <h3>Question 7</h3>
+                        <p></p>
+                        <select name="q7-select" id="q7-select">
+                    	<option value="0">Choose an option</option>
+                    	<option value="1">Strongly Disagree</option>
+                    	<option value="2">Disagree</option>
+                    	<option value="3">neutral</option>
+                    	<option value="4">Agree</option>
+                    	<option value="5">Strongly Agree</option>
+                    </select>
+                    </li>
+                    <li class="list-group-item">
+                        <h3>Question 8</h3>
+                        <p></p>
+                        <select name="q8-select" id="q8-select">
+                    	<option value="0">Choose an option</option>
+                    	<option value="1">Strongly Disagree</option>
+                    	<option value="2">Disagree</option>
+                    	<option value="3">neutral</option>
+                    	<option value="4">Agree</option>
+                    	<option value="5">Strongly Agree</option>
+                    </select>
+                    </li>
+                    <li class="list-group-item">
+                        <h3>Question 9</h3>
+                        <p></p>
+                        <select name="q9-select" id="q9-select">
+                    	<option value="0">Choose an option</option>
+                    	<option value="1">Strongly Disagree</option>
+                    	<option value="2">Disagree</option>
+                    	<option value="3">neutral</option>
+                    	<option value="4">Agree</option>
+                    	<option value="5">Strongly Agree</option>
+                    </select>
+                    </li>
+                    <li class="list-group-item">
+                        <h3>Question 10</h3>
+                        <p></p>
+                        <select name="q10-select" id="q10-select-">
+                    
+                    	<option value="1">Strongly Disagree</option>
+                    	<option value="2">Disagree</option>
+                    	<option value="3">neutral</option>
+                    	<option value="4">Agree</option>
+                    	<option value="5">Strongly Agree</option>
+                    </select>
+                    </li>
+                </ul>
+                <div class="panel-body">
+                    <button class="btn btn-success btn-lg"> Click to find your PAL</button>
+                </div>
+            </div>
+        </form>
+    </section>
     <footer>
 
     </footer>
