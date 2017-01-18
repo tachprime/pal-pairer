@@ -1,9 +1,9 @@
 body {
-    background-color: black;
+    background-color: #8fc38b;
 }
 
 .jumbotron {
-    background-color: black;
+    background-color: #8fc38b;
     position: fixed;
     width: 100%;
     height: 100%;
@@ -30,7 +30,7 @@ body {
     float: left;
     height: 10em;
     border-radius: 100%;
-    box-shadow: -10px 10px 5px #888888;
+    box-shadow: -10px 10px 5px #8fc38b;
     padding: 1em;
 }
 
