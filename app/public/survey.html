@@ -45,7 +45,7 @@
                     <li class="list-group-item">
                         <h3>Question 1</h3>
                         <p>How often do you work out?</p>
-                        <select form="survey-form" required="required" name="q1-select" id="q1-select">
+                        <select class="choice-input" form="survey-form" required="required" name="q1-select" id="q1-select">
                     	<option selected="selected" disabled="disabled" value="">Choose an option</option>
                     	<option value="1">Never cause I'm perfect the way I am</option>
                     	<option value="2">Is it New years yet?</option>
@@ -57,7 +57,7 @@
                     <li class="list-group-item">
                         <h3>Question 2</h3>
                         <p>When you look into a mirror what do you say to yourself?</p>
-                        <select form="survey-form" required="required" name="q2-select" id="q2-select">
+                        <select class="choice-input" form="survey-form" required="required" name="q2-select" id="q2-select">
                     	<option selected="selected" disabled="disabled" value="">Choose an option</option>
                     	<option value="1">Why did this just crack?</option>
                     	<option value="2">is that a zit?</option>
@@ -69,7 +69,7 @@
                     <li class="list-group-item">
                         <h3>Question 3</h3>
                         <p>What kind of tv shows do you watch?</p>
-                        <select form="survey-form" required="required" name="q3-select" id="q3-select">
+                        <select class="choice-input" form="survey-form" required="required" name="q3-select" id="q3-select">
                     	<option selected="selected" disabled="disabled" value="">Choose an option</option>
                     	<option value="1">If ain't on NETFLIX who cares</option>
                     	<option value="2">If its on HGTV i'm down</option>
@@ -81,7 +81,7 @@
                     <li class="list-group-item">
                         <h3>Question 4</h3>
                         <p>If you had to classify yourserlf what would it be?</p>
-                        <select form="survey-form" required="required" name="q4-select" id="q4-select">
+                        <select class="choice-input" form="survey-form" required="required" name="q4-select" id="q4-select">
                     	<option selected="selected" disabled="disabled" value="">Choose an option</option>
                     	<option value="1">D&D Nerd</option>
                     	<option value="2">Comic geek</option>
@@ -93,7 +93,7 @@
                     <li class="list-group-item">
                         <h3>Question 5</h3>
                         <p>What was your favorite cartoon growing up?</p>
-                        <select form="survey-form" required="required" name="q5-select" id="q5-select">
+                        <select class="choice-input" form="survey-form" required="required" name="q5-select" id="q5-select">
                     	<option selected="selected" disabled="disabled" value="">Choose an option</option>
                     	<option value="1">The Flinstones</option>
                     	<option value="2">Thundercats</option>
@@ -105,7 +105,7 @@
                     <li class="list-group-item">
                         <h3>Question 6</h3>
                         <p>What kind of car do you like?</p>
-                        <select form="survey-form" required="required" name="q6-select" id="q6-select">
+                        <select class="choice-input" form="survey-form" required="required" name="q6-select" id="q6-select">
                     	<option selected="selected" disabled="disabled" value="">Choose an option</option>
                     	<option value="1">Tesla or anything electric (love my planet)</option>
                     	<option value="2">Italian and exotic</option>
@@ -117,7 +117,7 @@
                     <li class="list-group-item">
                         <h3>Question 7</h3>
                         <p>On your free time what do you like to do?</p>
-                        <select form="survey-form" required="required" name="q7-select" id="q7-select">
+                        <select class="choice-input" form="survey-form" required="required" name="q7-select" id="q7-select">
                     	<option selected="selected" disabled="disabled" value="">Choose an option</option>
                     	<option value="1">Sleep ZZzzzz...</option>
                     	<option value="2">Play or listen to some tunes</option>
@@ -129,7 +129,7 @@
                     <li class="list-group-item">
                         <h3>Question 8</h3>
                         <p>If you go to a theatre what do you watch?</p>
-                        <select form="survey-form" required="required" name="q8-select" id="q8-select">
+                        <select class="choice-input" form="survey-form" required="required" name="q8-select" id="q8-select">
                     	<option selected="selected" disabled="disabled" value="">Choose an option</option>
                     	<option value="1">Horror films (paranormal activity 10 here I come)</option>
                     	<option value="2">Romantic comedies (my significant other made me I swear)</option>
@@ -141,7 +141,7 @@
                     <li class="list-group-item">
                         <h3>Question 9</h3>
                         <p>If you could have any pet what would it be?</p>
-                        <select form="survey-form" required="required" name="q9-select" id="q9-select">
+                        <select class="choice-input" form="survey-form" required="required" name="q9-select" id="q9-select">
                     	<option selected="selected" disabled="disabled" value="">Choose an option</option>
                     	<option value="1">Cats (sometimes liking evil isn't wrong)</option>
                     	<option value="2">Lion (no one f's with a lion)</option>
@@ -153,7 +153,7 @@
                     <li class="list-group-item">
                         <h3>Question 10</h3>
                         <p>Which was the best Fast and Furious?</p>
-                        <select form="survey-form" required="required" name="q10-select" id="q10-select">
+                        <select class="choice-input" form="survey-form" required="required" name="q10-select" id="q10-select">
                     	<option selected="selected" disabled="disabled" value="">Choose an option</option>
                     	<option value="1">The fast and the furious (the OG)</option>
                     	<option value="2">Tokyo Drift</option>
@@ -164,12 +164,30 @@
                     </li>
                 </ul>
                 <div class="panel-body">
-                    <input id="submitBtn" form="survey-form" class="btn btn-success btn-lg" type="submit" value="find your Pal now!">
-                    
+                    <input id="submitBtn" data-target="myModal" form="survey-form" class="btn btn-success btn-lg" type="submit" value="find your Pal now!">
+
                 </div>
             </div>
         </form>
     </section>
+    <div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Your New Pal</h4>
+                </div>
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
     <footer>
 
     </footer>

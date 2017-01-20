@@ -19,9 +19,16 @@ $(document).ready(function () {
             data: user
         }).done(function (res) {
             console.log(JSON.stringify(res, null, 2));
+
+            showMatch(res);
+
         }).fail(function () {
             console.log("Error posting user to API");
         });
+
+        $('#name-input').val("");
+        $('#photo-input').val("");
+        $('.choice-input').val("");
 
         return false;
     });
@@ -47,4 +54,16 @@ function createUserObj(self) {
     }
 
     return user;
+}
+
+function showMatch(res) {
+    $('.modal-body').empty();
+
+    var img = $('<img src="' + res.photo + '" alt="pal photo">');
+    var name = $('<p>' + res.name + '</p>');
+
+    $('.modal-body').append(name);
+    $('.modal-body').append(img);
+
+    $('#myModal').modal('show');
 }
