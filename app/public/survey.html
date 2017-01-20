@@ -32,11 +32,11 @@
                 <div class="panel-body">
                     <h3>Enter Your Information</h3>
                     <label for="name-input">Name (required)</label><br>
-                    <input required form="survey-form" id="name-input" type="text"><br><br>
+                    <input required form="survey-form" name="name-input" id="name-input" type="text"><br><br>
                     <label for="photo-input">URL to Photo Image (requried)</label><br>
                     <div class="input-group">
                         <span class="input-group-addon" id="url-example">https://example.com/yourphoto.jpg</span>
-                        <input required type="text" class="form-control" id="photo-input">
+                        <input form="survey-form" name="photo-input" required type="text" class="form-control" id="photo-input">
                     </div>
                 </div>
 
@@ -165,6 +165,7 @@
                 </ul>
                 <div class="panel-body">
                     <input id="submitBtn" form="survey-form" class="btn btn-success btn-lg" type="submit" value="find your Pal now!">
+                    
                 </div>
             </div>
         </form>
@@ -172,7 +173,7 @@
     <footer>
 
     </footer>
-    <script>
+    <script src="js/survey.js">
     </script>
 </body>
 
