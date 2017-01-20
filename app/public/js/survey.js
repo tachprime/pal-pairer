@@ -16,7 +16,7 @@ $(document).ready(function () {
         $.ajax({
             url: hostUrl + api,
             method: 'Post',
-            type: 'json'
+            data: user
         }).done(function (res) {
             console.log(JSON.stringify(res, null, 2));
         }).fail(function () {
@@ -30,9 +30,9 @@ $(document).ready(function () {
 
 function createUserObj(self) {
     var user = {
-        name: '',
-        photo: '',
-        scores: []
+        "name": '',
+        "photo": '',
+        "scores": []
     };
 
     self = self.serializeArray();
