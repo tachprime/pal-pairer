@@ -1,6 +1,5 @@
 //todo fill out data with more mock info
-var friendsList = [
-    {
+var friendsList = [{
         "name": "PewDiePie",
         "photo": "https://emptylighthouse-production.s3-us-west-2.amazonaws.com/s3fs-public/field/image/pdp_0.jpg",
         "scores": [2, 2, 1, 1, 4, 3, 5, 1, 3, 5]

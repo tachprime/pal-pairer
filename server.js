@@ -13,6 +13,6 @@ app.use('/', apiRouter);
 //endpoints to be handled by htmlRoutes.js
 app.use('/', htmlRouter);
 
-app.listen(app.get('port'), function () {
-  console.log('Server running on %s', app.get('port'));
+app.listen(app.get('port'), function() {
+    console.log('Server running on %s', app.get('port'));
 });

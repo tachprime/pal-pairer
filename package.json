@@ -1,33 +1,33 @@
 {
-  "name": "pal-pairer",
-  "version": "1.0.0",
-  "description": "Find a compatible friend based on a user survey",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "engines": {
-    "node": "6.9.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tachprime/pal-pairer.git"
-  },
-  "keywords": [
-    "node",
-    "express",
-    "friend",
-    "finder"
-  ],
-  "author": "Alex R.",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/tachprime/pal-pairer/issues"
-  },
-  "homepage": "https://github.com/tachprime/pal-pairer#readme",
-  "dependencies": {
-    "body-parser": "1.15.2",
-    "express": "4.14.0"
-  }
+    "name": "pal-pairer",
+    "version": "1.0.0",
+    "description": "Find a compatible friend based on a user survey",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "engines": {
+        "node": "6.9.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tachprime/pal-pairer.git"
+    },
+    "keywords": [
+        "node",
+        "express",
+        "friend",
+        "finder"
+    ],
+    "author": "Alex R.",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/tachprime/pal-pairer/issues"
+    },
+    "homepage": "https://github.com/tachprime/pal-pairer#readme",
+    "dependencies": {
+        "body-parser": "1.15.2",
+        "express": "4.14.0"
+    }
 }

@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(document).ready(function() {
 
     var hostUrl = window.location.origin;
     var api = '/api/friends';
@@ -6,7 +6,7 @@ $(document).ready(function () {
 
     console.log("Calling api at: %s", hostUrl + api);
 
-    $('#survey-form').on('submit', function () {
+    $('#survey-form').on('submit', function() {
         var self = $(this);
 
         user = createUserObj(self);
@@ -17,12 +17,12 @@ $(document).ready(function () {
             url: hostUrl + api,
             method: 'Post',
             data: user
-        }).done(function (res) {
+        }).done(function(res) {
             console.log(JSON.stringify(res, null, 2));
 
             showMatch(res);
 
-        }).fail(function () {
+        }).fail(function() {
             console.log("Error posting user to API");
         });
 
