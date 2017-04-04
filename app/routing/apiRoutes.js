@@ -6,14 +6,16 @@ var friendsList = require('../data/friends');
 
 console.log('API Routes loaded');
 
-router.use(bodyParser.urlencoded({ extended: true }));
+router.use(bodyParser.urlencoded({
+    extended: true
+}));
 router.use(bodyParser.json());
 
-router.get('/api/friends', function (req, res) {
+router.get('/api/friends', function(req, res) {
 
     res.json(friendsList);
 
-}).post('/api/friends', function (req, res) {
+}).post('/api/friends', function(req, res) {
 
     let userData = req.body;
 

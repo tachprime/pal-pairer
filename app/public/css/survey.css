@@ -1,36 +1,37 @@
 body {
-	background-image: url(../images/Meeting-Room/Snapshots/Meeting-Room.jpg);
-	background-attachment: fixed;
+    background-image: url(../images/Meeting-Room/Snapshots/Meeting-Room.jpg);
+    background-attachment: fixed;
 }
 
 input {
-	width: 100%;
+    width: 100%;
 }
 
 .container {
-	margin: 10% auto;
+    margin: 10% auto;
 }
 
 .panel {
-	padding: 0px;
+    padding: 0px;
 }
 
-.panel-body, .list-group-item {
-	padding: 8px;
-	padding-left: 4%;
-	padding-right: 4%;
+.panel-body,
+.list-group-item {
+    padding: 8px;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 
 .panel-heading {
-	font-size: 2em;
-	color: white;
+    font-size: 2em;
+    color: white;
 }
 
 #pair-logo {
-	margin-right: 1em;
+    margin-right: 1em;
 }
 
 #url-example {
-	background-color: lightgreen;
-	color: lightslategray;
+    background-color: lightgreen;
+    color: lightslategray;
 }

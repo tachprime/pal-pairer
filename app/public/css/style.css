@@ -43,11 +43,13 @@ body {
     position: relative;
 }
 
-.no-video .video-container video, .touch .video-container video {
+.no-video .video-container video,
+.touch .video-container video {
     display: none;
 }
 
-.no-video .video-container .poster, .touch .video-container .poster {
+.no-video .video-container .poster,
+.touch .video-container .poster {
     display: block !important;
 }
 
